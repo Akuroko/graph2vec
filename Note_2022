@@ -1,0 +1,7 @@
+Module used and role
+  hashlib:编码
+  pickle：储存文件
+  numpy：矩阵计算
+  collections.Counter：统计数据格式转换
+  torch:  
+    torch.optim:优化算法 optim.SparseAdam：适用于稀疏数据的
