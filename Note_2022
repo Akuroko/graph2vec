@@ -20,3 +20,11 @@ File run flow path:
   classifier.py
   
 Code run flow path:
+  main.py
+    1读取数据：边数据，节点数据，节点标签数据
+    2建立图结构(graph_struct.py.Graph)
+    3给节点重新标签：建立字典1节点对应图2节点对应节点标签3节点对应节点新标签（结合1、2）
+    4图嵌入(graph_struct.py.getsub()):整合节点类型、图的d阶子图结构
+  model_data.py
+    5读取图嵌入结果
+    6建立子图
