@@ -1,7 +1,22 @@
 Module used and role
   hashlib:编码
-  pickle：储存文件
+  pickle：存取文件
   numpy：矩阵计算
-  collections.Counter：统计数据格式转换
-  torch:  
+  collections：
+    collections.Counter：统计数据格式转换
+    collections.defaultdict:建立图结构
+  torch:  建立tensor数据类型
     torch.optim:优化算法 optim.SparseAdam：适用于稀疏数据的
+    torch.nn.embedding: 词向量嵌入模块
+  sklearn:
+    sklearn.linear_model.LogisticRegression：逻辑回归分类算法
+    sklearn.model_selection.KFold:k则验证
+
+File run flow path:
+  main.py
+    graph_struct.py
+  model_data.py
+    model.py
+  classifier.py
+  
+Code run flow path:
